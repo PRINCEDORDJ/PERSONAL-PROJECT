@@ -101,7 +101,18 @@ a{
     width: 20%;
     padding: 1rem;
     border-radius: 50px;
+    animation: scaleIn 1.3s infinite ease-in-out;
 }
+
+@keyframes scaleIn {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
 
 .abthead{
     padding: 3rem 5rem;
