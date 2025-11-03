@@ -8,6 +8,36 @@
     <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
  <link href='https://cdn.boxicons.com/3.0.3/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
  <link rel="shortcut icon" href="/img/PRINCE-removebg-preview.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <style>
+  .message-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+  }
+  .message-popup.success {
+    background-color: #4CAF50;
+  }
+  .message-popup.error {
+    background-color: #f44336;
+  }
+  .message-popup .close-btn {
+    margin-left: 15px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+</style>
   </head>
   <body>
     <div class="head">
@@ -122,6 +152,7 @@
        </div>
         
     </section>
+    <script src="config.js"></script>
     <script src="script.js"></script>
   </body>
 
