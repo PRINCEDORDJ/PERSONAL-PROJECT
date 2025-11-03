@@ -34,6 +34,11 @@ body{
     justify-content: center;
 }
 
+.navbar.active{
+    color: yellowgreen;
+}
+
+
 footer h5{
     padding: 10px;
 }
@@ -321,6 +326,10 @@ footer{
     flex-direction: column-reverse;
     gap: 30px;
     padding-top: 0;
+  }
+
+  .contactinput h4{
+    text-align: center;
   }
 
   .whole{
